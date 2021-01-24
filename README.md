@@ -1,4 +1,5 @@
 # NodeJS-SG
+
 Study group for Node.js(Express) enthusiasts
 
 ## First time here? Follow steps as given else just pull from upstream(start from step 5) and continue with your task
@@ -17,8 +18,8 @@ Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUM
 
 <code>e.g git checkout -b adamu_chukwuma_1</code>
 
-
 #### Creating a pull request
+
 Run <code>git branch</code> It should show that you are on your current branch
 
 After implementing your task
