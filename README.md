@@ -25,8 +25,8 @@ Add the required files in a folder under their respective week. The folder shoul
 
 The document tree should look like the one below:
 #### -week 1
-####  -adamu_chukwuma
-####    -Your .js files here
+#### ---adamu_chukwuma
+#### ------Your .js files here
 
 After implementing your task
 
