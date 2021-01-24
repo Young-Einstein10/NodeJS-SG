@@ -1,32 +1,40 @@
 # NodeJS-SG
 Study group for Node.js(Express) enthusiasts
 
-# PART ONE
-## HOW TO SUBMIT TO THE REPO
-### It is assumed you know your way around the terminal, and that you've already installed git
--  Login to your github account
- - **FORK THE REPO**: at the top right corner of the repo, you will see three buttons; **watch**, **star**, and **fork**. click on Fork.
- 
- - A modal might pop up and you will be asked to choose an account to fork to, choose your Github account, and then a copy of this repo will be created for you in your account.
- - go to the copy that was created for you, look for a green button with **code**, click on it, you will see a dropdown, copy the link in the dropdown
- 
- ![fork](https://i.ibb.co/8DKHgC7/image.png)
- 
- - Open your terminal, go to the directory you want your project to be e.g. `cd c:/user/myuser/documents/` this means I should navigate to my documents directory
- - then enter the command 
-   `git clone "paste the link you copied from your copy/version of this repo here"` eg 
-   `git clone https://github.com/ogheneovo12/HTML-Study-Group.git`
- - if you open your file explorer, you will see the project folder in your directory
- - you will see different folders in these format **WEEK1**, **WEEK2**, open the current assignment week eg **WEEK1**
- - **CREATE A NEW BRANCH**: to create a new branch (for example into week 1), enter into your terminal `git checkout -b WEEK1` (you are free to name that **WEEK1** anything)
- - Create a new file/folder (this depends on the given assignment's instruction)
- - Your fullname should be the name of the file or folder
- - Do your assigment in the file or folder you created with your name, when you are done open your terminal and
- - Type `git add *`
- - then type `git commit -m "submitting week 1 assignment, <task given>"` (you can type anything you want within the double quote, but let it reflect what you did)
- - Then enter `git push` in your terminal, ensure you have internet
- - Once you are done, open your own version of this repo on github, you will see a big brown button at the top with a message of **COMPARE AND PULL REQUEST**, click on it, 
- 
- ![github pullrequest image](https://i.ytimg.com/vi/rgbCcBNZcdQ/maxresdefault.jpg)
- 
- - Follow through till the pull request is created.
+Step 1: Click on Fork at the top right corner of the repo
+
+Step 2: Clone your forked repository i.e. `git clone https://github.com/DSC-Unilag/NodeJS-SG.git`
+
+Step 3: cd into the cloned folder | <code>cd NodeJS-SG</code>
+
+Step 4: git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.git
+
+Step 5: git pull upstream week "<week number>" e.g. git pull upstream week 2
+
+Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME></code>
+
+<code>e.g git checkout -b adamu_chukwuma</code>
+
+
+#### Creating a pull request
+Run <code>git branch</code> It should show that you are on your current branch
+
+After implementing your task
+
+Step 1: Run: git add .
+
+Step 2: Run: git commit -m "< COMMIT MESSAGE >"
+
+Step 3: git pull upstream week "<week number>"
+
+Step 4: git push origin < BRANCH_NAME >
+
+Go to the repository https://github.com/DSC-Unilag/NodeJS-SG.git
+
+As soon as you get there, you are going to see a green ‘compare and create a pull request’
+
+Click on it, and type your message, click on create pull request.
+
+If you have any more questions, please check out this resource -> https://www.youtube.com/watch?v=HbSjyU2vf6Y
+
+[![Run on Repl.it](https://repl.it/badge/github/nerdyphil/sentry-my-customer-backend)](https://repl.it/github/nerdyphil/sentry-my-customer-backend)
