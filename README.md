@@ -21,7 +21,7 @@ Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUM
 #### Creating a pull request
 Run <code>git branch</code> It should show that you are on your current branch
 
-Add the required files in a folder under their respective week. The folder should be named with the following format: firstName_lastName e.g adamu_chukwuma
+Add the required files in a folder under their respective week. Your folder should be named with the following format: firstName_lastName e.g adamu_chukwuma
 
 The document tree should look like the one below:
 #### -week 1
