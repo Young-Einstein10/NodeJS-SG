@@ -24,9 +24,9 @@ Run <code>git branch</code> It should show that you are on your current branch
 Add the required files in a folder under their respective week. The folder should be named with the following format: firstName_lastName e.g adamu_chukwuma
 
 The document tree should look like the one below:
--week 1
-  -adamu_chukwuma
-    -Your .js files here
+#### -week 1
+####  -adamu_chukwuma
+####    -Your .js files here
 
 After implementing your task
 
