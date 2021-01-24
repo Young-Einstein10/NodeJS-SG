@@ -1,6 +1,8 @@
 # NodeJS-SG
 Study group for Node.js(Express) enthusiasts
 
+##First time here? Follow steps as given else just pull from upstream and continue with your task
+
 Step 1: Click on Fork at the top right corner of the repo
 
 Step 2: Clone your forked repository i.e. `git clone https://github.com/DSC-Unilag/NodeJS-SG.git`
