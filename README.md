@@ -13,9 +13,9 @@ Step 4: <code>git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.gi
 
 Step 5: <code>git pull upstream week "week number"</code> e.g. <code>git pull upstream week 2</code>
 
-Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME></code>
+Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUMBER></code>
 
-<code>e.g git checkout -b adamu_chukwuma</code>
+<code>e.g git checkout -b adamu_chukwuma_1</code>
 
 
 #### Creating a pull request
