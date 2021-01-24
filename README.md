@@ -7,9 +7,9 @@ Step 2: Clone your forked repository i.e. `git clone https://github.com/DSC-Unil
 
 Step 3: cd into the cloned folder | <code>cd NodeJS-SG</code>
 
-Step 4: git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.git
+Step 4: <code>git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.git</code>
 
-Step 5: git pull upstream week "<week number>" e.g. git pull upstream week 2
+Step 5: <code>git pull upstream week "<week number>"</code> e.g. <code>git pull upstream week 2</code>
 
 Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME></code>
 
@@ -25,7 +25,7 @@ Step 1: Run: git add .
 
 Step 2: Run: git commit -m "< COMMIT MESSAGE >"
 
-Step 3: git pull upstream week "<week number>"
+Step 3: <code>git pull upstream week "<week number>"</code>
 
 Step 4: git push origin < BRANCH_NAME >
 
@@ -36,5 +36,3 @@ As soon as you get there, you are going to see a green ‘compare and create a p
 Click on it, and type your message, click on create pull request.
 
 If you have any more questions, please check out this resource -> https://www.youtube.com/watch?v=HbSjyU2vf6Y
-
-[![Run on Repl.it](https://repl.it/badge/github/nerdyphil/sentry-my-customer-backend)](https://repl.it/github/nerdyphil/sentry-my-customer-backend)
