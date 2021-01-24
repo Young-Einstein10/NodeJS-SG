@@ -11,7 +11,7 @@ Step 3: cd into the cloned folder | <code>cd NodeJS-SG</code>
 
 Step 4: <code>git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.git</code>
 
-Step 5: <code>git pull upstream week "<week number>"</code> e.g. <code>git pull upstream week 2</code>
+Step 5: <code>git pull upstream week "week number"</code> e.g. <code>git pull upstream week 2</code>
 
 Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME></code>
 
@@ -27,7 +27,7 @@ Step 1: Run: git add .
 
 Step 2: Run: git commit -m "< COMMIT MESSAGE >"
 
-Step 3: <code>git pull upstream week "<week number>"</code>
+Step 3: <code>git pull upstream week "week number"</code>
 
 Step 4: git push origin < BRANCH_NAME >
 
