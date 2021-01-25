@@ -21,7 +21,7 @@ Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUM
 #### Creating a pull request
 Run <code>git branch</code> It should show that you are on your current branch
 
-Add the required files in a folder under their respective week. Your folder should be named with the following format: firstName_lastName e.g adamu_chukwuma
+Create a folder named with the following format: firstName_lastName e.g adamu_chukwuma and add the required files in that folder under their respective week folder.
 
 The document tree should look like the one below:
 #### -week 1
@@ -36,7 +36,7 @@ Step 2: Run: git commit -m "< COMMIT MESSAGE >"
 
 Step 3: <code>git pull upstream week"week number"</code> e.g. <code>git pull upstream week2</code>
 
-Step 4: git push origin < BRANCH_NAME >
+Step 4: git push origin < BRANCH_NAME > e.g. <code> git push origin adamu_chukwuma_1</code>
 
 Go to the repository https://github.com/DSC-Unilag/NodeJS-SG.git
 
