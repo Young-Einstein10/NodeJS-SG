@@ -21,18 +21,18 @@ Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUM
 #### Creating a pull request
 Run <code>git branch</code> It should show that you are on your current branch
 
-Create a folder named with the following format: firstName_lastName e.g adamu_chukwuma and add the required files in that folder under their respective week folder.
+Create a folder under the current week with the following format: firstName_lastName e.g adamu_chukwuma and add the required files from the task in that folder under their respective week folder.
 
 The document tree should look like the one below:
-#### -week 1
-#### ---adamu_chukwuma
-#### ------Your .js files here
+#### -----week 1
+#### -------adamu_chukwuma
+#### -----------Your .js files and folders here
 
 After implementing your task
 
 Step 1: Run: git add .
 
-Step 2: Run: git commit -m "< COMMIT MESSAGE >"
+Step 2: Run: git commit -m "< COMMIT MESSAGE >" e.g <code>git commit -m "Finished task 2" </code>
 
 Step 3: <code>git pull upstream week"week number"</code> e.g. <code>git pull upstream week2</code>
 
